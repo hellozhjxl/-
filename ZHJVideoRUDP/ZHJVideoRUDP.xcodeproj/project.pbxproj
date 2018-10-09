@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D7BB27BBF344B1415327D01 /* libPods-ZHJVideoRUDP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 650B7CEA5F5B8B21075C933A /* libPods-ZHJVideoRUDP.a */; };
 		DDCB9D1E216C53A8008E3E64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB9D1D216C53A8008E3E64 /* AppDelegate.m */; };
 		DDCB9D21216C53A8008E3E64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB9D20216C53A8008E3E64 /* ViewController.m */; };
 		DDCB9D24216C53A8008E3E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCB9D22216C53A8008E3E64 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25A03D05DCC193A46D221D1D /* Pods-ZHJVideoRUDP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHJVideoRUDP.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHJVideoRUDP/Pods-ZHJVideoRUDP.release.xcconfig"; sourceTree = "<group>"; };
+		650B7CEA5F5B8B21075C933A /* libPods-ZHJVideoRUDP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHJVideoRUDP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDCB9D19216C53A8008E3E64 /* ZHJVideoRUDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHJVideoRUDP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDCB9D1C216C53A8008E3E64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDCB9D1D216C53A8008E3E64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		DDCB9D3C216C53A8008E3E64 /* ZHJVideoRUDPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHJVideoRUDPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDCB9D40216C53A8008E3E64 /* ZHJVideoRUDPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJVideoRUDPUITests.m; sourceTree = "<group>"; };
 		DDCB9D42216C53A8008E3E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA20F917BC4AD01C2091AE91 /* Pods-ZHJVideoRUDP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHJVideoRUDP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHJVideoRUDP/Pods-ZHJVideoRUDP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D7BB27BBF344B1415327D01 /* libPods-ZHJVideoRUDP.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45685064CA6204EED7AC64EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA20F917BC4AD01C2091AE91 /* Pods-ZHJVideoRUDP.debug.xcconfig */,
+				25A03D05DCC193A46D221D1D /* Pods-ZHJVideoRUDP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		585A0721884C61072A3D5890 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				650B7CEA5F5B8B21075C933A /* libPods-ZHJVideoRUDP.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DDCB9D10216C53A8008E3E64 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				DDCB9D34216C53A8008E3E64 /* ZHJVideoRUDPTests */,
 				DDCB9D3F216C53A8008E3E64 /* ZHJVideoRUDPUITests */,
 				DDCB9D1A216C53A8008E3E64 /* Products */,
+				45685064CA6204EED7AC64EC /* Pods */,
+				585A0721884C61072A3D5890 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +163,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDCB9D45216C53A8008E3E64 /* Build configuration list for PBXNativeTarget "ZHJVideoRUDP" */;
 			buildPhases = (
+				B76772080854E51186C6318C /* [CP] Check Pods Manifest.lock */,
 				DDCB9D15216C53A8008E3E64 /* Sources */,
 				DDCB9D16216C53A8008E3E64 /* Frameworks */,
 				DDCB9D17216C53A8008E3E64 /* Resources */,
@@ -256,6 +281,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B76772080854E51186C6318C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZHJVideoRUDP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DDCB9D15216C53A8008E3E64 /* Sources */ = {
@@ -431,32 +477,44 @@
 		};
 		DDCB9D46216C53A8008E3E64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA20F917BC4AD01C2091AE91 /* Pods-ZHJVideoRUDP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: haijiang zhang (C997LG3957)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5CFR8G6G2U;
 				INFOPLIST_FILE = ZHJVideoRUDP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhj.ZHJVideoRUDP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0df1d051-9842-4af7-9195-89e2cedcbc45";
+				PROVISIONING_PROFILE_SPECIFIER = ZHJAppsDevelopment;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		DDCB9D47216C53A8008E3E64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25A03D05DCC193A46D221D1D /* Pods-ZHJVideoRUDP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: haijiang zhang (C997LG3957)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5CFR8G6G2U;
 				INFOPLIST_FILE = ZHJVideoRUDP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhj.ZHJVideoRUDP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0df1d051-9842-4af7-9195-89e2cedcbc45";
+				PROVISIONING_PROFILE_SPECIFIER = ZHJAppsDevelopment;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
