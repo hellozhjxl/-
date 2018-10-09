@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDCB9D1E216C53A8008E3E64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB9D1D216C53A8008E3E64 /* AppDelegate.m */; };
+		DDCB9D21216C53A8008E3E64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB9D20216C53A8008E3E64 /* ViewController.m */; };
+		DDCB9D24216C53A8008E3E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCB9D22216C53A8008E3E64 /* Main.storyboard */; };
+		DDCB9D26216C53A8008E3E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCB9D25216C53A8008E3E64 /* Assets.xcassets */; };
+		DDCB9D29216C53A8008E3E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCB9D27216C53A8008E3E64 /* LaunchScreen.storyboard */; };
+		DDCB9D2C216C53A8008E3E64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB9D2B216C53A8008E3E64 /* main.m */; };
+		DDCB9D36216C53A8008E3E64 /* ZHJVideoRUDPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB9D35216C53A8008E3E64 /* ZHJVideoRUDPTests.m */; };
+		DDCB9D41216C53A8008E3E64 /* ZHJVideoRUDPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB9D40216C53A8008E3E64 /* ZHJVideoRUDPUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDCB9D32216C53A8008E3E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDCB9D11216C53A8008E3E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDCB9D18216C53A8008E3E64;
+			remoteInfo = ZHJVideoRUDP;
+		};
+		DDCB9D3D216C53A8008E3E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDCB9D11216C53A8008E3E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDCB9D18216C53A8008E3E64;
+			remoteInfo = ZHJVideoRUDP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDCB9D19216C53A8008E3E64 /* ZHJVideoRUDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHJVideoRUDP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCB9D1C216C53A8008E3E64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDCB9D1D216C53A8008E3E64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDCB9D1F216C53A8008E3E64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDCB9D20216C53A8008E3E64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDCB9D23216C53A8008E3E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDCB9D25216C53A8008E3E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDCB9D28216C53A8008E3E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDCB9D2A216C53A8008E3E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCB9D2B216C53A8008E3E64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDCB9D31216C53A8008E3E64 /* ZHJVideoRUDPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHJVideoRUDPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCB9D35216C53A8008E3E64 /* ZHJVideoRUDPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJVideoRUDPTests.m; sourceTree = "<group>"; };
+		DDCB9D37216C53A8008E3E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCB9D3C216C53A8008E3E64 /* ZHJVideoRUDPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHJVideoRUDPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCB9D40216C53A8008E3E64 /* ZHJVideoRUDPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJVideoRUDPUITests.m; sourceTree = "<group>"; };
+		DDCB9D42216C53A8008E3E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDCB9D16216C53A8008E3E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCB9D2E216C53A8008E3E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCB9D39216C53A8008E3E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDCB9D10216C53A8008E3E64 = {
+			isa = PBXGroup;
+			children = (
+				DDCB9D1B216C53A8008E3E64 /* ZHJVideoRUDP */,
+				DDCB9D34216C53A8008E3E64 /* ZHJVideoRUDPTests */,
+				DDCB9D3F216C53A8008E3E64 /* ZHJVideoRUDPUITests */,
+				DDCB9D1A216C53A8008E3E64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDCB9D1A216C53A8008E3E64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDCB9D19216C53A8008E3E64 /* ZHJVideoRUDP.app */,
+				DDCB9D31216C53A8008E3E64 /* ZHJVideoRUDPTests.xctest */,
+				DDCB9D3C216C53A8008E3E64 /* ZHJVideoRUDPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDCB9D1B216C53A8008E3E64 /* ZHJVideoRUDP */ = {
+			isa = PBXGroup;
+			children = (
+				DDCB9D1C216C53A8008E3E64 /* AppDelegate.h */,
+				DDCB9D1D216C53A8008E3E64 /* AppDelegate.m */,
+				DDCB9D1F216C53A8008E3E64 /* ViewController.h */,
+				DDCB9D20216C53A8008E3E64 /* ViewController.m */,
+				DDCB9D22216C53A8008E3E64 /* Main.storyboard */,
+				DDCB9D25216C53A8008E3E64 /* Assets.xcassets */,
+				DDCB9D27216C53A8008E3E64 /* LaunchScreen.storyboard */,
+				DDCB9D2A216C53A8008E3E64 /* Info.plist */,
+				DDCB9D2B216C53A8008E3E64 /* main.m */,
+			);
+			path = ZHJVideoRUDP;
+			sourceTree = "<group>";
+		};
+		DDCB9D34216C53A8008E3E64 /* ZHJVideoRUDPTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDCB9D35216C53A8008E3E64 /* ZHJVideoRUDPTests.m */,
+				DDCB9D37216C53A8008E3E64 /* Info.plist */,
+			);
+			path = ZHJVideoRUDPTests;
+			sourceTree = "<group>";
+		};
+		DDCB9D3F216C53A8008E3E64 /* ZHJVideoRUDPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDCB9D40216C53A8008E3E64 /* ZHJVideoRUDPUITests.m */,
+				DDCB9D42216C53A8008E3E64 /* Info.plist */,
+			);
+			path = ZHJVideoRUDPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDCB9D18216C53A8008E3E64 /* ZHJVideoRUDP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCB9D45216C53A8008E3E64 /* Build configuration list for PBXNativeTarget "ZHJVideoRUDP" */;
+			buildPhases = (
+				DDCB9D15216C53A8008E3E64 /* Sources */,
+				DDCB9D16216C53A8008E3E64 /* Frameworks */,
+				DDCB9D17216C53A8008E3E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHJVideoRUDP;
+			productName = ZHJVideoRUDP;
+			productReference = DDCB9D19216C53A8008E3E64 /* ZHJVideoRUDP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDCB9D30216C53A8008E3E64 /* ZHJVideoRUDPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCB9D48216C53A8008E3E64 /* Build configuration list for PBXNativeTarget "ZHJVideoRUDPTests" */;
+			buildPhases = (
+				DDCB9D2D216C53A8008E3E64 /* Sources */,
+				DDCB9D2E216C53A8008E3E64 /* Frameworks */,
+				DDCB9D2F216C53A8008E3E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDCB9D33216C53A8008E3E64 /* PBXTargetDependency */,
+			);
+			name = ZHJVideoRUDPTests;
+			productName = ZHJVideoRUDPTests;
+			productReference = DDCB9D31216C53A8008E3E64 /* ZHJVideoRUDPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDCB9D3B216C53A8008E3E64 /* ZHJVideoRUDPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCB9D4B216C53A8008E3E64 /* Build configuration list for PBXNativeTarget "ZHJVideoRUDPUITests" */;
+			buildPhases = (
+				DDCB9D38216C53A8008E3E64 /* Sources */,
+				DDCB9D39216C53A8008E3E64 /* Frameworks */,
+				DDCB9D3A216C53A8008E3E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDCB9D3E216C53A8008E3E64 /* PBXTargetDependency */,
+			);
+			name = ZHJVideoRUDPUITests;
+			productName = ZHJVideoRUDPUITests;
+			productReference = DDCB9D3C216C53A8008E3E64 /* ZHJVideoRUDPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDCB9D11216C53A8008E3E64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = zhj;
+				TargetAttributes = {
+					DDCB9D18216C53A8008E3E64 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					DDCB9D30216C53A8008E3E64 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DDCB9D18216C53A8008E3E64;
+					};
+					DDCB9D3B216C53A8008E3E64 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DDCB9D18216C53A8008E3E64;
+					};
+				};
+			};
+			buildConfigurationList = DDCB9D14216C53A8008E3E64 /* Build configuration list for PBXProject "ZHJVideoRUDP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDCB9D10216C53A8008E3E64;
+			productRefGroup = DDCB9D1A216C53A8008E3E64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDCB9D18216C53A8008E3E64 /* ZHJVideoRUDP */,
+				DDCB9D30216C53A8008E3E64 /* ZHJVideoRUDPTests */,
+				DDCB9D3B216C53A8008E3E64 /* ZHJVideoRUDPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDCB9D17216C53A8008E3E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCB9D29216C53A8008E3E64 /* LaunchScreen.storyboard in Resources */,
+				DDCB9D26216C53A8008E3E64 /* Assets.xcassets in Resources */,
+				DDCB9D24216C53A8008E3E64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCB9D2F216C53A8008E3E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCB9D3A216C53A8008E3E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDCB9D15216C53A8008E3E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCB9D21216C53A8008E3E64 /* ViewController.m in Sources */,
+				DDCB9D2C216C53A8008E3E64 /* main.m in Sources */,
+				DDCB9D1E216C53A8008E3E64 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCB9D2D216C53A8008E3E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCB9D36216C53A8008E3E64 /* ZHJVideoRUDPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCB9D38216C53A8008E3E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCB9D41216C53A8008E3E64 /* ZHJVideoRUDPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDCB9D33216C53A8008E3E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDCB9D18216C53A8008E3E64 /* ZHJVideoRUDP */;
+			targetProxy = DDCB9D32216C53A8008E3E64 /* PBXContainerItemProxy */;
+		};
+		DDCB9D3E216C53A8008E3E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDCB9D18216C53A8008E3E64 /* ZHJVideoRUDP */;
+			targetProxy = DDCB9D3D216C53A8008E3E64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDCB9D22216C53A8008E3E64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDCB9D23216C53A8008E3E64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDCB9D27216C53A8008E3E64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDCB9D28216C53A8008E3E64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDCB9D43216C53A8008E3E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDCB9D44216C53A8008E3E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDCB9D46216C53A8008E3E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZHJVideoRUDP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhj.ZHJVideoRUDP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDCB9D47216C53A8008E3E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZHJVideoRUDP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhj.ZHJVideoRUDP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDCB9D49216C53A8008E3E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZHJVideoRUDPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhj.ZHJVideoRUDPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHJVideoRUDP.app/ZHJVideoRUDP";
+			};
+			name = Debug;
+		};
+		DDCB9D4A216C53A8008E3E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZHJVideoRUDPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhj.ZHJVideoRUDPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHJVideoRUDP.app/ZHJVideoRUDP";
+			};
+			name = Release;
+		};
+		DDCB9D4C216C53A8008E3E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZHJVideoRUDPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhj.ZHJVideoRUDPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZHJVideoRUDP;
+			};
+			name = Debug;
+		};
+		DDCB9D4D216C53A8008E3E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZHJVideoRUDPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhj.ZHJVideoRUDPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZHJVideoRUDP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDCB9D14216C53A8008E3E64 /* Build configuration list for PBXProject "ZHJVideoRUDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCB9D43216C53A8008E3E64 /* Debug */,
+				DDCB9D44216C53A8008E3E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCB9D45216C53A8008E3E64 /* Build configuration list for PBXNativeTarget "ZHJVideoRUDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCB9D46216C53A8008E3E64 /* Debug */,
+				DDCB9D47216C53A8008E3E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCB9D48216C53A8008E3E64 /* Build configuration list for PBXNativeTarget "ZHJVideoRUDPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCB9D49216C53A8008E3E64 /* Debug */,
+				DDCB9D4A216C53A8008E3E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCB9D4B216C53A8008E3E64 /* Build configuration list for PBXNativeTarget "ZHJVideoRUDPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCB9D4C216C53A8008E3E64 /* Debug */,
+				DDCB9D4D216C53A8008E3E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDCB9D11216C53A8008E3E64 /* Project object */;
+}
