@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0D7BB27BBF344B1415327D01 /* libPods-ZHJVideoRUDP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 650B7CEA5F5B8B21075C933A /* libPods-ZHJVideoRUDP.a */; };
+		DD1F931421732A56004502DC /* ZHJNSURLSessionDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1F931121732A56004502DC /* ZHJNSURLSessionDemo.m */; };
+		DD1F931521732A56004502DC /* 原理介绍 in Resources */ = {isa = PBXBuildFile; fileRef = DD1F931221732A56004502DC /* 原理介绍 */; };
 		DDCB9D1E216C53A8008E3E64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB9D1D216C53A8008E3E64 /* AppDelegate.m */; };
 		DDCB9D21216C53A8008E3E64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB9D20216C53A8008E3E64 /* ViewController.m */; };
-		DDCB9D24216C53A8008E3E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCB9D22216C53A8008E3E64 /* Main.storyboard */; };
 		DDCB9D26216C53A8008E3E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCB9D25216C53A8008E3E64 /* Assets.xcassets */; };
 		DDCB9D29216C53A8008E3E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCB9D27216C53A8008E3E64 /* LaunchScreen.storyboard */; };
 		DDCB9D2C216C53A8008E3E64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB9D2B216C53A8008E3E64 /* main.m */; };
@@ -38,12 +39,14 @@
 /* Begin PBXFileReference section */
 		25A03D05DCC193A46D221D1D /* Pods-ZHJVideoRUDP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHJVideoRUDP.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHJVideoRUDP/Pods-ZHJVideoRUDP.release.xcconfig"; sourceTree = "<group>"; };
 		650B7CEA5F5B8B21075C933A /* libPods-ZHJVideoRUDP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHJVideoRUDP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD1F931021732A56004502DC /* ZHJNSURLSessionDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHJNSURLSessionDemo.h; sourceTree = "<group>"; };
+		DD1F931121732A56004502DC /* ZHJNSURLSessionDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHJNSURLSessionDemo.m; sourceTree = "<group>"; };
+		DD1F931221732A56004502DC /* 原理介绍 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "原理介绍"; sourceTree = "<group>"; };
 		DDCB9D19216C53A8008E3E64 /* ZHJVideoRUDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHJVideoRUDP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDCB9D1C216C53A8008E3E64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDCB9D1D216C53A8008E3E64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DDCB9D1F216C53A8008E3E64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DDCB9D20216C53A8008E3E64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DDCB9D23216C53A8008E3E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDCB9D25216C53A8008E3E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDCB9D28216C53A8008E3E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDCB9D2A216C53A8008E3E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		DDCB9D3C216C53A8008E3E64 /* ZHJVideoRUDPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHJVideoRUDPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDCB9D40216C53A8008E3E64 /* ZHJVideoRUDPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJVideoRUDPUITests.m; sourceTree = "<group>"; };
 		DDCB9D42216C53A8008E3E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCB9D4F216CB16A008E3E64 /* ZHJVideoRUDP.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHJVideoRUDP.pch; sourceTree = "<group>"; };
 		FA20F917BC4AD01C2091AE91 /* Pods-ZHJVideoRUDP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHJVideoRUDP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHJVideoRUDP/Pods-ZHJVideoRUDP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +104,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DD10CAD02171A430004851BB /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				DD1F930D21732A56004502DC /* 原理 */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
+		DD1F930D21732A56004502DC /* 原理 */ = {
+			isa = PBXGroup;
+			children = (
+				DD1F931021732A56004502DC /* ZHJNSURLSessionDemo.h */,
+				DD1F931121732A56004502DC /* ZHJNSURLSessionDemo.m */,
+				DD1F931221732A56004502DC /* 原理介绍 */,
+			);
+			path = "原理";
+			sourceTree = "<group>";
+		};
 		DDCB9D10216C53A8008E3E64 = {
 			isa = PBXGroup;
 			children = (
@@ -125,15 +147,15 @@
 		DDCB9D1B216C53A8008E3E64 /* ZHJVideoRUDP */ = {
 			isa = PBXGroup;
 			children = (
+				DD10CAD02171A430004851BB /* Download */,
 				DDCB9D1C216C53A8008E3E64 /* AppDelegate.h */,
 				DDCB9D1D216C53A8008E3E64 /* AppDelegate.m */,
 				DDCB9D1F216C53A8008E3E64 /* ViewController.h */,
 				DDCB9D20216C53A8008E3E64 /* ViewController.m */,
-				DDCB9D22216C53A8008E3E64 /* Main.storyboard */,
 				DDCB9D25216C53A8008E3E64 /* Assets.xcassets */,
 				DDCB9D27216C53A8008E3E64 /* LaunchScreen.storyboard */,
+				DDCB9D4E216CB140008E3E64 /* config */,
 				DDCB9D2A216C53A8008E3E64 /* Info.plist */,
-				DDCB9D2B216C53A8008E3E64 /* main.m */,
 			);
 			path = ZHJVideoRUDP;
 			sourceTree = "<group>";
@@ -154,6 +176,15 @@
 				DDCB9D42216C53A8008E3E64 /* Info.plist */,
 			);
 			path = ZHJVideoRUDPUITests;
+			sourceTree = "<group>";
+		};
+		DDCB9D4E216CB140008E3E64 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				DDCB9D2B216C53A8008E3E64 /* main.m */,
+				DDCB9D4F216CB16A008E3E64 /* ZHJVideoRUDP.pch */,
+			);
+			path = config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +250,7 @@
 		DDCB9D11216C53A8008E3E64 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZHJ;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = zhj;
 				TargetAttributes = {
@@ -261,8 +293,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDCB9D29216C53A8008E3E64 /* LaunchScreen.storyboard in Resources */,
+				DD1F931521732A56004502DC /* 原理介绍 in Resources */,
 				DDCB9D26216C53A8008E3E64 /* Assets.xcassets in Resources */,
-				DDCB9D24216C53A8008E3E64 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDCB9D21216C53A8008E3E64 /* ViewController.m in Sources */,
+				DD1F931421732A56004502DC /* ZHJNSURLSessionDemo.m in Sources */,
 				DDCB9D2C216C53A8008E3E64 /* main.m in Sources */,
 				DDCB9D1E216C53A8008E3E64 /* AppDelegate.m in Sources */,
 			);
@@ -346,14 +379,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DDCB9D22216C53A8008E3E64 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDCB9D23216C53A8008E3E64 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DDCB9D27216C53A8008E3E64 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -483,6 +508,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: haijiang zhang (C997LG3957)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 5CFR8G6G2U;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = ZHJVideoRUDP/config/ZHJVideoRUDP.pch;
 				INFOPLIST_FILE = ZHJVideoRUDP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -505,6 +532,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: haijiang zhang (C997LG3957)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 5CFR8G6G2U;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = ZHJVideoRUDP/config/ZHJVideoRUDP.pch;
 				INFOPLIST_FILE = ZHJVideoRUDP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (

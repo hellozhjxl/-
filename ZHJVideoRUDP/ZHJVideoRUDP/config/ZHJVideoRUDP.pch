@@ -1,0 +1,20 @@
+//
+//  ZHJVideoRUDP.pch
+//  ZHJVideoRUDP
+//
+//  Created by zhj on 2018/10/9.
+//  Copyright © 2018年 zhj. All rights reserved.
+//
+
+#ifndef ZHJVideoRUDP_pch
+#define ZHJVideoRUDP_pch
+
+#define SERVER  @"http://192.168.31.141:8080/ZHJVideoRUDP/"
+
+//API
+#define API_LOGIN @"Login"
+#define API_MOVIERESOURCE    @"movies/2.rmvb"
+
+#import <Masonry.h>
+
+#endif /* ZHJVideoRUDP_pch */
