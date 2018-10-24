@@ -140,21 +140,10 @@
 		DD10CAD02171A430004851BB /* Download */ = {
 			isa = PBXGroup;
 			children = (
+				DD687C982180849E002550AA /* 核心 */,
+				DD687C972180847C002550AA /* UI */,
 				DD1F932521734F6F004502DC /* Cache */,
 				DD1F930D21732A56004502DC /* 原理 */,
-				DD1F931721733B6F004502DC /* ZHJDownloadFile.h */,
-				DD1F931821733B6F004502DC /* ZHJDownloadFile.m */,
-				DD1F932221734DA0004502DC /* ZHJNSURLSessionDownloadFile.h */,
-				DD1F932321734DA0004502DC /* ZHJNSURLSessionDownloadFile.m */,
-				DD1F9329217357DC004502DC /* ZHJDownloadManager.h */,
-				DD1F932A217357DC004502DC /* ZHJDownloadManager.m */,
-				DD687C5821804934002550AA /* ZHJDownloadListViewController.h */,
-				DD687C5921804934002550AA /* ZHJDownloadListViewController.m */,
-				DD687C942180644C002550AA /* ZHJDownloaLlist.h */,
-				DD687C952180644C002550AA /* ZHJDownloaLlist.m */,
-				DD687C5B21804960002550AA /* ZHJDownloadListiCell.h */,
-				DD687C5C21804960002550AA /* ZHJDownloadListiCell.m */,
-				DD687C5E21804975002550AA /* ZHJDownloadListiCell.xib */,
 			);
 			path = Download;
 			sourceTree = "<group>";
@@ -197,6 +186,33 @@
 				DD687C9221805531002550AA /* NetworkManager.m */,
 			);
 			path = network;
+			sourceTree = "<group>";
+		};
+		DD687C972180847C002550AA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DD687C5821804934002550AA /* ZHJDownloadListViewController.h */,
+				DD687C5921804934002550AA /* ZHJDownloadListViewController.m */,
+				DD687C942180644C002550AA /* ZHJDownloaLlist.h */,
+				DD687C952180644C002550AA /* ZHJDownloaLlist.m */,
+				DD687C5B21804960002550AA /* ZHJDownloadListiCell.h */,
+				DD687C5C21804960002550AA /* ZHJDownloadListiCell.m */,
+				DD687C5E21804975002550AA /* ZHJDownloadListiCell.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DD687C982180849E002550AA /* 核心 */ = {
+			isa = PBXGroup;
+			children = (
+				DD1F931721733B6F004502DC /* ZHJDownloadFile.h */,
+				DD1F931821733B6F004502DC /* ZHJDownloadFile.m */,
+				DD1F932221734DA0004502DC /* ZHJNSURLSessionDownloadFile.h */,
+				DD1F932321734DA0004502DC /* ZHJNSURLSessionDownloadFile.m */,
+				DD1F9329217357DC004502DC /* ZHJDownloadManager.h */,
+				DD1F932A217357DC004502DC /* ZHJDownloadManager.m */,
+			);
+			path = "核心";
 			sourceTree = "<group>";
 		};
 		DDCB9D10216C53A8008E3E64 = {
