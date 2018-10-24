@@ -9,12 +9,15 @@
 #ifndef ZHJVideoRUDP_pch
 #define ZHJVideoRUDP_pch
 
-#define SERVER  @"http://192.168.31.141:8080/ZHJVideoRUDP/"
+#define SERVER  @"http://192.168.31.141:8080"
 
 //API
-#define API_LOGIN @"Login"
-#define API_MOVIERESOURCE    @"movies/2.rmvb"
+#define API_LOGIN @"/ZHJVideoRUDP/Login"
+#define API_MOVIERESOURCE  [NSString stringWithFormat:@"%@/ZHJVideoRUDP/movies",SERVER]
 
 #import <Masonry.h>
+#import <LKDBHelper.h>
+#import "ZHJTool.h"
+#import "NetworkManager.h"
 
 #endif /* ZHJVideoRUDP_pch */

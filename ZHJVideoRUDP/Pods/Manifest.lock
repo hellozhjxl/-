@@ -14,21 +14,31 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - LKDBHelper (2.1.9):
+    - FMDB
   - Masonry (0.6.4)
 
 DEPENDENCIES:
   - AFNetworking
+  - LKDBHelper (~> 2.1.6)
   - Masonry (~> 0.6.3)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - FMDB
+    - LKDBHelper
     - Masonry
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  LKDBHelper: 78e6c0de99f45375892223a334535d745a123dbd
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
 
-PODFILE CHECKSUM: 6f3efd3e40ffa78bf838ebc370a5079fff8438f8
+PODFILE CHECKSUM: 492bdf34a18469bc86e1340bbfa22bae91d5d7ef
 
 COCOAPODS: 1.5.3

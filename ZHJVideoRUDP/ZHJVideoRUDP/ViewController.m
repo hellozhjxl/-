@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ZHJNSURLSessionDemo.h"
+#import "ZHJDownloadListViewController.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -67,7 +68,9 @@
             break;
         case 2://下载
         {
-            
+            ZHJDownloadListViewController *vc = [[ZHJDownloadListViewController alloc] init];
+            vc.title = @"下载列表";
+            [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 3:

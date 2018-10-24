@@ -8,7 +8,7 @@
 
 #import "ZHJNSURLSessionDemo.h"
 
-@interface ZHJNSURLSessionDemo() <NSURLSessionDownloadDelegate>
+@interface ZHJNSURLSessionDemo() <NSURLSessionDownloadDelegate,NSURLSessionDataDelegate>
 
 @end
 
@@ -22,6 +22,7 @@
     return self;
 }
 
+#pragma mark----------------------
 #pragma mark get请求
 - (void)get {
     //1.创建url
@@ -40,6 +41,7 @@
     [task resume];
 }
 
+#pragma mark----------------------
 #pragma mark post请求
 - (void)post {
     //1.创建url
@@ -61,6 +63,7 @@
     [task resume];
 }
 
+#pragma mark----------------------
 #pragma mark 下载1
 /**
  方法1:无法监听进度
@@ -88,9 +91,10 @@
     [task resume];
 }
 
+#pragma mark----------------------
 #pragma mark 下载2
 /**
- 方式2:使用代理方式可以监听下载进度
+ 方式2:使用代理方式可以监听下载进度,这种方式在断点下载时候不合适
  */
 - (void)downloadVideo2 {
     NSString *urlStr = [SERVER stringByAppendingString:API_MOVIERESOURCE];
@@ -101,7 +105,6 @@
     NSURLSessionDownloadTask *task = [session downloadTaskWithRequest:request];
     [task resume];
 }
-
 
 #pragma mark NSURLSessionDownloadDelegate
 //下载完成

@@ -10,6 +10,17 @@
 		0D7BB27BBF344B1415327D01 /* libPods-ZHJVideoRUDP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 650B7CEA5F5B8B21075C933A /* libPods-ZHJVideoRUDP.a */; };
 		DD1F931421732A56004502DC /* ZHJNSURLSessionDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1F931121732A56004502DC /* ZHJNSURLSessionDemo.m */; };
 		DD1F931521732A56004502DC /* 原理介绍 in Resources */ = {isa = PBXBuildFile; fileRef = DD1F931221732A56004502DC /* 原理介绍 */; };
+		DD1F931921733B6F004502DC /* ZHJDownloadFile.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1F931821733B6F004502DC /* ZHJDownloadFile.m */; };
+		DD1F932421734DA0004502DC /* ZHJNSURLSessionDownloadFile.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1F932321734DA0004502DC /* ZHJNSURLSessionDownloadFile.m */; };
+		DD1F932821734F81004502DC /* ZHJDwonloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1F932721734F81004502DC /* ZHJDwonloadCache.m */; };
+		DD1F932B217357DC004502DC /* ZHJDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1F932A217357DC004502DC /* ZHJDownloadManager.m */; };
+		DD1F932E21736EC3004502DC /* ZHJDownloadCacheDao.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1F932D21736EC3004502DC /* ZHJDownloadCacheDao.m */; };
+		DD687C5721801C24002550AA /* ZHJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DD687C5621801C24002550AA /* ZHJTool.m */; };
+		DD687C5A21804934002550AA /* ZHJDownloadListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD687C5921804934002550AA /* ZHJDownloadListViewController.m */; };
+		DD687C5D21804960002550AA /* ZHJDownloadListiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD687C5C21804960002550AA /* ZHJDownloadListiCell.m */; };
+		DD687C5F21804975002550AA /* ZHJDownloadListiCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD687C5E21804975002550AA /* ZHJDownloadListiCell.xib */; };
+		DD687C9321805531002550AA /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD687C9221805531002550AA /* NetworkManager.m */; };
+		DD687C962180644C002550AA /* ZHJDownloaLlist.m in Sources */ = {isa = PBXBuildFile; fileRef = DD687C952180644C002550AA /* ZHJDownloaLlist.m */; };
 		DDCB9D1E216C53A8008E3E64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB9D1D216C53A8008E3E64 /* AppDelegate.m */; };
 		DDCB9D21216C53A8008E3E64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB9D20216C53A8008E3E64 /* ViewController.m */; };
 		DDCB9D26216C53A8008E3E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCB9D25216C53A8008E3E64 /* Assets.xcassets */; };
@@ -42,6 +53,28 @@
 		DD1F931021732A56004502DC /* ZHJNSURLSessionDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHJNSURLSessionDemo.h; sourceTree = "<group>"; };
 		DD1F931121732A56004502DC /* ZHJNSURLSessionDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHJNSURLSessionDemo.m; sourceTree = "<group>"; };
 		DD1F931221732A56004502DC /* 原理介绍 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "原理介绍"; sourceTree = "<group>"; };
+		DD1F931721733B6F004502DC /* ZHJDownloadFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHJDownloadFile.h; sourceTree = "<group>"; };
+		DD1F931821733B6F004502DC /* ZHJDownloadFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJDownloadFile.m; sourceTree = "<group>"; };
+		DD1F932221734DA0004502DC /* ZHJNSURLSessionDownloadFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHJNSURLSessionDownloadFile.h; sourceTree = "<group>"; };
+		DD1F932321734DA0004502DC /* ZHJNSURLSessionDownloadFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJNSURLSessionDownloadFile.m; sourceTree = "<group>"; };
+		DD1F932621734F81004502DC /* ZHJDwonloadCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHJDwonloadCache.h; sourceTree = "<group>"; };
+		DD1F932721734F81004502DC /* ZHJDwonloadCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJDwonloadCache.m; sourceTree = "<group>"; };
+		DD1F9329217357DC004502DC /* ZHJDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHJDownloadManager.h; sourceTree = "<group>"; };
+		DD1F932A217357DC004502DC /* ZHJDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJDownloadManager.m; sourceTree = "<group>"; };
+		DD1F932C21736EC3004502DC /* ZHJDownloadCacheDao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHJDownloadCacheDao.h; sourceTree = "<group>"; };
+		DD1F932D21736EC3004502DC /* ZHJDownloadCacheDao.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJDownloadCacheDao.m; sourceTree = "<group>"; };
+		DD687C5521801C24002550AA /* ZHJTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHJTool.h; sourceTree = "<group>"; };
+		DD687C5621801C24002550AA /* ZHJTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJTool.m; sourceTree = "<group>"; };
+		DD687C5821804934002550AA /* ZHJDownloadListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHJDownloadListViewController.h; sourceTree = "<group>"; };
+		DD687C5921804934002550AA /* ZHJDownloadListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJDownloadListViewController.m; sourceTree = "<group>"; };
+		DD687C5B21804960002550AA /* ZHJDownloadListiCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHJDownloadListiCell.h; sourceTree = "<group>"; };
+		DD687C5C21804960002550AA /* ZHJDownloadListiCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJDownloadListiCell.m; sourceTree = "<group>"; };
+		DD687C5E21804975002550AA /* ZHJDownloadListiCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZHJDownloadListiCell.xib; sourceTree = "<group>"; };
+		DD687C9021805531002550AA /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		DD687C9121805531002550AA /* NetworkMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkMacro.h; sourceTree = "<group>"; };
+		DD687C9221805531002550AA /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		DD687C942180644C002550AA /* ZHJDownloaLlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHJDownloaLlist.h; sourceTree = "<group>"; };
+		DD687C952180644C002550AA /* ZHJDownloaLlist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJDownloaLlist.m; sourceTree = "<group>"; };
 		DDCB9D19216C53A8008E3E64 /* ZHJVideoRUDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHJVideoRUDP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDCB9D1C216C53A8008E3E64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDCB9D1D216C53A8008E3E64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -107,7 +140,21 @@
 		DD10CAD02171A430004851BB /* Download */ = {
 			isa = PBXGroup;
 			children = (
+				DD1F932521734F6F004502DC /* Cache */,
 				DD1F930D21732A56004502DC /* 原理 */,
+				DD1F931721733B6F004502DC /* ZHJDownloadFile.h */,
+				DD1F931821733B6F004502DC /* ZHJDownloadFile.m */,
+				DD1F932221734DA0004502DC /* ZHJNSURLSessionDownloadFile.h */,
+				DD1F932321734DA0004502DC /* ZHJNSURLSessionDownloadFile.m */,
+				DD1F9329217357DC004502DC /* ZHJDownloadManager.h */,
+				DD1F932A217357DC004502DC /* ZHJDownloadManager.m */,
+				DD687C5821804934002550AA /* ZHJDownloadListViewController.h */,
+				DD687C5921804934002550AA /* ZHJDownloadListViewController.m */,
+				DD687C942180644C002550AA /* ZHJDownloaLlist.h */,
+				DD687C952180644C002550AA /* ZHJDownloaLlist.m */,
+				DD687C5B21804960002550AA /* ZHJDownloadListiCell.h */,
+				DD687C5C21804960002550AA /* ZHJDownloadListiCell.m */,
+				DD687C5E21804975002550AA /* ZHJDownloadListiCell.xib */,
 			);
 			path = Download;
 			sourceTree = "<group>";
@@ -120,6 +167,36 @@
 				DD1F931221732A56004502DC /* 原理介绍 */,
 			);
 			path = "原理";
+			sourceTree = "<group>";
+		};
+		DD1F932521734F6F004502DC /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				DD1F932621734F81004502DC /* ZHJDwonloadCache.h */,
+				DD1F932721734F81004502DC /* ZHJDwonloadCache.m */,
+				DD1F932C21736EC3004502DC /* ZHJDownloadCacheDao.h */,
+				DD1F932D21736EC3004502DC /* ZHJDownloadCacheDao.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		DD687C5421801C10002550AA /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				DD687C5521801C24002550AA /* ZHJTool.h */,
+				DD687C5621801C24002550AA /* ZHJTool.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		DD687C6021804F2D002550AA /* network */ = {
+			isa = PBXGroup;
+			children = (
+				DD687C9121805531002550AA /* NetworkMacro.h */,
+				DD687C9021805531002550AA /* NetworkManager.h */,
+				DD687C9221805531002550AA /* NetworkManager.m */,
+			);
+			path = network;
 			sourceTree = "<group>";
 		};
 		DDCB9D10216C53A8008E3E64 = {
@@ -147,6 +224,8 @@
 		DDCB9D1B216C53A8008E3E64 /* ZHJVideoRUDP */ = {
 			isa = PBXGroup;
 			children = (
+				DD687C6021804F2D002550AA /* network */,
+				DD687C5421801C10002550AA /* tools */,
 				DD10CAD02171A430004851BB /* Download */,
 				DDCB9D1C216C53A8008E3E64 /* AppDelegate.h */,
 				DDCB9D1D216C53A8008E3E64 /* AppDelegate.m */,
@@ -295,6 +374,7 @@
 				DDCB9D29216C53A8008E3E64 /* LaunchScreen.storyboard in Resources */,
 				DD1F931521732A56004502DC /* 原理介绍 in Resources */,
 				DDCB9D26216C53A8008E3E64 /* Assets.xcassets in Resources */,
+				DD687C5F21804975002550AA /* ZHJDownloadListiCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +420,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD687C962180644C002550AA /* ZHJDownloaLlist.m in Sources */,
+				DD687C5721801C24002550AA /* ZHJTool.m in Sources */,
+				DD1F932421734DA0004502DC /* ZHJNSURLSessionDownloadFile.m in Sources */,
 				DDCB9D21216C53A8008E3E64 /* ViewController.m in Sources */,
 				DD1F931421732A56004502DC /* ZHJNSURLSessionDemo.m in Sources */,
+				DD687C5D21804960002550AA /* ZHJDownloadListiCell.m in Sources */,
+				DD687C5A21804934002550AA /* ZHJDownloadListViewController.m in Sources */,
+				DD1F932B217357DC004502DC /* ZHJDownloadManager.m in Sources */,
+				DD1F931921733B6F004502DC /* ZHJDownloadFile.m in Sources */,
+				DD1F932821734F81004502DC /* ZHJDwonloadCache.m in Sources */,
 				DDCB9D2C216C53A8008E3E64 /* main.m in Sources */,
+				DD1F932E21736EC3004502DC /* ZHJDownloadCacheDao.m in Sources */,
+				DD687C9321805531002550AA /* NetworkManager.m in Sources */,
 				DDCB9D1E216C53A8008E3E64 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +595,7 @@
 			baseConfigurationReference = FA20F917BC4AD01C2091AE91 /* Pods-ZHJVideoRUDP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer: haijiang zhang (C997LG3957)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 5CFR8G6G2U;
@@ -529,6 +620,7 @@
 			baseConfigurationReference = 25A03D05DCC193A46D221D1D /* Pods-ZHJVideoRUDP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer: haijiang zhang (C997LG3957)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 5CFR8G6G2U;
